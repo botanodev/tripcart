@@ -36,7 +36,7 @@
 <h1>TripCart — Privacy Policy</h1>
 <p class="meta">
   Effective date: 5 October 2026<br>
-  Last updated: 8 October 2026
+  Last updated: 1 November 2026
 </p>
 
 <h2>Summary</h2>
@@ -59,8 +59,7 @@
 
 <h2>Network connections</h2>
 <p>
-  Apart from Google Play (purchases and ratings, see below), the app connects to the
-  internet only to download public exchange rate and tax rate reference data.
+  Apart from the app store (Google Play on Android, the App Store on iPhone; purchases and ratings, see below), the app connects to the internet only to download public exchange rate and tax rate reference data.
 </p>
 <p>
   These requests contain no data entered by the user. The services hosting the
@@ -72,31 +71,45 @@
 <p>
   On first launch, the app reads the country of the mobile network the device is
   connected to and uses it to suggest the local currency, which the user
-  confirms. This requires no permission, is not location data, is used only on
-  the device, and is not stored or transmitted.
+  confirms. This requires no permission, is not location data, is used only on the device, and is not stored or transmitted. The iPhone
+  version does not read it (iOS no longer provides it); the user picks the currency instead.
 </p>
 
 <h2>Photos</h2>
 <p>
-  Taking a photo uses the device's camera app; choosing a photo uses the system
-  photo picker. The app does not request camera or photo library permissions and
-  can access only the photos the user selects. Selected photos are copied into
+  Choosing a photo uses the system photo picker, which needs no photo library
+  permission; the app can access only the photos the user selects. To take a
+  photo, the Android version hands over to the device's camera app and requests
+  no camera permission; the iPhone version opens the camera inside the app and
+  asks for camera permission the first time. Selected photos are copied into
   the app's private storage on the device.
 </p>
 
-<h2>Android backup</h2>
+<h2>Backup</h2>
 <p>
-  If Google backup is turned on, Android may back up the app's records and
+  On Android, if Google backup is turned on, Android may back up the app's records and
   settings to the user's Google account under Google's privacy policy. The
   developer has no access to this backup.
 </p>
 <p>
   Photos are excluded from the backup because of the system backup size limit.
-  After restoring on a new device, records and amounts are restored; photos may
-  not be.
+  After restoring on a new device, records and amounts are restored; photos may not be.
+</p>
+<p>
+  On iPhone, if iCloud Backup is turned on or the iPhone is backed up to a
+  computer, the app's data is included in that backup along with the rest of
+  the device, kept by Apple in the user's Apple Account under Apple's policy.
+  The developer has no access to it.
 </p>
 
 <h2>Permissions</h2>
+<p><strong>iPhone</strong></p>
+<ul>
+  <li><strong>Camera</strong>: to take item and receipt photos inside the app,
+      used only when the user taps to take a photo.</li>
+</ul>
+<p>On iPhone, network access and App Store purchases need no separate permission.</p>
+<p><strong>Android</strong></p>
 <ul>
   <li><strong>Internet</strong>: to download exchange rate and tax rate
       reference data, and to verify purchases with Google Play.</li>
@@ -110,22 +123,22 @@
 <h2>Purchases</h2>
 <p>
   The app includes a few free records, after which a one-time purchase unlocks
-  unlimited use. Payment is handled by Google Play; the developer does not
-  receive card numbers, billing addresses or other payment details. The app only
-  checks with Google Play whether the Google account owns the purchase, and
+  unlimited use. Payment is handled by the app store (Google Play on Android, the App Store on
+  iPhone); the developer does not receive card numbers, billing addresses or
+  other payment details. The app only checks with the store whether the account
+  (Google account or Apple Account) owns the purchase, and
   stores the result on the device for offline use.
 </p>
 <p>
-  Refunds are handled by Google Play under its own policy. When a purchase is
+  Refunds are handled by Google Play or Apple under its own policy. When a purchase is
   refunded, the unlock is withdrawn.
 </p>
 
 <h2>Ratings</h2>
 <p>
-  After the user has made a certain number of records, the app invites a rating
-  once through Google Play's in-app review; Settings also links to the store
-  page. Ratings and reviews are handled by Google Play under Google's privacy
-  policy. The developer cannot see whether the user has rated, and the app sends
+  After the user has made a certain number of records, the app invites a rating once through the store's in-app review (Google Play
+  or the App Store); Settings also links to the store page. Ratings and reviews
+  are handled by Google or Apple under their privacy policies. The developer cannot see whether the user has rated, and the app sends
   no data.
 </p>
 
