@@ -80,6 +80,16 @@
   .stores b { font-size: 1.05rem; white-space: nowrap; }
 
   .wrap { padding: 0 20px 64px; }
+  .photos { display: grid; gap: 14px; margin: 28px 0 0; align-items: start; }
+  .photos.n2 { grid-template-columns: 1fr 1fr; }
+  .photos figure { margin: 0; }
+  .photos img {
+    display: block; width: 100%; height: auto; border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.14);
+  }
+  .photos figcaption { color: var(--muted); font-size: .86rem; margin-top: 8px; line-height: 1.5; }
+  /* 長圖很長：手機上限制寬度，不然要滑很久才看到內文 */
+  .photos .long { max-width: 220px; margin: 0 auto; }
   .desc { margin-top: 28px; }
   .desc h2 { font-size: 1.08rem; margin: 36px 0 10px; }
   .desc p { margin: 0 0 14px; }
@@ -122,6 +132,7 @@
     <span><small>iPhone</small><b>App Store</b><br><small>Coming soon</small></span>
   </div>
 
+  
   <div class="desc">
 <p>Shopping abroad, the price tag is in yen or baht, but your card statement will be in your own currency — plus a foreign transaction fee. TripCart converts prices while you shop and keeps a ledger of the whole trip.</p>
 <h2>Convert as you shop</h2>
